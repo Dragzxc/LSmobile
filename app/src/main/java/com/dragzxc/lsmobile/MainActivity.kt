@@ -14,7 +14,7 @@ import android.widget.TextView
 
 class MainActivity : Activity() {
 
-    private val background = Color.rgb(9, 9, 11)
+    private val backgroundColor = Color.rgb(9, 9, 11)
     private val accent = Color.rgb(167, 139, 250)
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -24,7 +24,7 @@ class MainActivity : Activity() {
             orientation = LinearLayout.VERTICAL
             gravity = Gravity.CENTER
             setPadding(28, 32, 28, 32)
-            setBackgroundColor(background)
+            setBackgroundColor(backgroundColor)
         }
 
         fun label(text: String, size: Float, color: Int): TextView {
